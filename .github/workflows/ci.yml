@@ -93,7 +93,7 @@ jobs:
 
           cmd = [
               'diff-cover', 'output/coverage.xml',
-              '--compare-branch=origin/\${{ github.base_ref }}',
+              '--compare-branch=origin/${{ github.base_ref }}',
               f'--fail-under={threshold}',
           ]
           for pattern in exclude_patterns:
