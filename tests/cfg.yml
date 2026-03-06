@@ -1,0 +1,9 @@
+coverage:
+  threshold: 80
+  include:
+    - "src/user/service.py"
+    - "src/middleware/auth.py"
+    - "src/common/erri.py"
+    - "src/common/email.py"
+  exclude:
+    - "src/**/__init__.py"
