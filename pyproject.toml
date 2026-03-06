@@ -29,6 +29,7 @@ dev = [
     "aiosqlite>=0.20.0",
     "fakeredis>=2.21.0",
     "diff-cover>=9.0.0",
+    "chardet<6",
 ]
 
 [build-system]
